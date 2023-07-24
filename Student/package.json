@@ -1,0 +1,19 @@
+{
+  "name": "student",
+  "version": "1.0.0",
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/build-angular": "^16.1.5",
+    "@angular/cdk": "^16.1.5",
+    "@angular/material": "^16.1.5",
+    "@angular/platform-browser": "^16.1.6"
+  },
+  "devDependencies": {}
+}

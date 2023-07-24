@@ -1,0 +1,11 @@
+.navbar{
+    background-color: rgb(93, 204, 29);
+}
+
+.modal-header{
+    background-color:rgb(188, 241, 134);
+    padding: 20px;
+}
+.modal-content{
+    background-color:rgb(188, 241, 134);
+}

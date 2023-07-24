@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="row" style="background-color:rgb(188, 241, 134);">
+        <div class="col-lg-6">
+            <img src="/assets/fine.png" style="height: 541px;">
+        </div>
+        <div class="col-lg-6">
+            <div class="card" style="margin:10%;">
+                <div class="card-header">
+                    Enter Your Information Here
+                </div>
+                <div class="card-body">
+                    <form [formGroup]="studentformgroup"(ngSubmit)="Onsubmit()">
+                        <div class="col mb-3">
+                            <input type="text" formControlName="name" class="form-control" placeholder="Enter Your Child Name">
+                        </div>
+                        <div class="col mb-3">
+                            <input type="phone" formControlName="PhoneNumber" class="form-control" placeholder="Enter Your Mobile Number">
+                        </div>
+                        <div class="col mb-3">
+                            <input type="email" formControlName="EmailId" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="col mb-3">
+                            <input type="password" formControlName="NewPassword" class="form-control" placeholder="New Password">
+                        </div>
+                        <div class="col mb-3">
+                            <input type="password" formControlName="ConfirmPassword" class="form-control" placeholder="Confirm Password">
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary" (click)="Onsubmit()"> Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
